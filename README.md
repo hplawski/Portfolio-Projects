@@ -1,4 +1,3 @@
-# Portfolio-Projects
 Cybersecurity Projects
 
 # Web Application Vulnerability Assessment
