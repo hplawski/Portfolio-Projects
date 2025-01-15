@@ -68,3 +68,48 @@ A detailed vulnerability report is available in the **Reports** folder.
 ---
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Vulnerability Assessment Report
+
+## Target Application: Juice Shop (HTB) / OWASP Top 10 (TryHackMe)
+
+### Vulnerabilities Found:
+1. **SQL Injection**
+   - **Location:** Login page (POST request)
+   - **Description:** The application was vulnerable to SQL Injection, allowing an attacker to inject SQL queries into the database through the login form.
+   - **Exploitation:** Used **SQLmap** to extract the usernames and passwords from the database.
+   - **Severity:** High
+   - **Remediation:** Use prepared statements and parameterized queries.
+
+2. **Cross-Site Scripting (XSS)**
+   - **Location:** Search field
+   - **Description:** The search feature did not sanitize user input, allowing an attacker to inject malicious JavaScript code.
+   - **Exploitation:** Injected a script to steal session cookies.
+   - **Severity:** Medium
+   - **Remediation:** Implement input sanitization and output encoding to prevent XSS.
+
+3. **Insecure Direct Object Reference (IDOR)**
+   - **Location:** URL parameter for accessing user accounts
+   - **Description:** The application allowed unauthorized users to modify the URL and access other user’s resources.
+   - **Exploitation:** Accessed restricted user information by manipulating the URL.
+   - **Severity:** Medium
+   - **Remediation:** Validate user input and implement proper access control mechanisms.
+
+### Conclusion:
+The application was found to be vulnerable to common security issues such as SQL Injection, XSS, and IDOR. Immediate remediation is recommended to prevent exploitation.
+
+
+
+
