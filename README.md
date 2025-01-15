@@ -1,4 +1,3 @@
-# Portfolio-Projects
 Cybersecurity Projects
 
 # Linux Privilege Escalation
