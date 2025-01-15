@@ -5,12 +5,12 @@ This repository showcases hands-on cybersecurity projects focusing on **vulnerab
 
 ## Projects
 
-### 1. [Web Application Vulnerability Assessment](https://github.com/your-username/repo-name/tree/web-vulnerability-assessment)
-- **Branch:** `web-vulnerability-assessment`
+### 1. [Web Application Vulnerability Assessment](https://github.com/hplawski/Portfolio-Projects/blob/Web-App-PenTesting/README.md)
+- **Branch:** `Web-App-PenTesting`
 - **Description:** This project involves identifying and exploiting common vulnerabilities in web applications, such as **SQL Injection** and **XSS**, using tools like Burp Suite and SQLmap.
 
-### 2. [Linux Privilege Escalation](https://github.com/your-username/repo-name/tree/linux-privilege-escalation)
-- **Branch:** `linux-privilege-escalation`
+### 2. [Linux Privilege Escalation](https://github.com/hplawski/Portfolio-Projects/blob/Linux-Privilege-Escalation/README.md)
+- **Branch:** `Linux-Privilege-Escalation`
 - **Description:** This project demonstrates privilege escalation techniques on Linux systems by exploiting misconfigurations in **sudo permissions** and **SUID binaries**.
 
 ---
