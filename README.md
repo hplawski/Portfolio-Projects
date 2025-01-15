@@ -1,1 +1,29 @@
-This repository showcases hands-on projects completed as part of my learning in cybersecurity, focusing on vulnerability assessment and privilege escalation techniques. These projects were conducted in controlled, simulated environments (Hack The Box and TryHackMe) and demonstrate my ability to identify, exploit, and document security vulnerabilities.
+## Overview
+This repository showcases hands-on cybersecurity projects focusing on **vulnerability assessment** and **privilege escalation techniques**. Each project is documented in a dedicated branch.
+
+---
+
+## Projects
+
+### 1. [Web Application Vulnerability Assessment](https://github.com/your-username/repo-name/tree/web-vulnerability-assessment)
+- **Branch:** `web-vulnerability-assessment`
+- **Description:** This project involves identifying and exploiting common vulnerabilities in web applications, such as **SQL Injection** and **XSS**, using tools like Burp Suite and SQLmap.
+
+### 2. [Linux Privilege Escalation](https://github.com/your-username/repo-name/tree/linux-privilege-escalation)
+- **Branch:** `linux-privilege-escalation`
+- **Description:** This project demonstrates privilege escalation techniques on Linux systems by exploiting misconfigurations in **sudo permissions** and **SUID binaries**.
+
+---
+
+## How to Navigate the Repository
+Each project is documented in its respective branch:
+1. Switch to the branch from the **Branch Selector** dropdown above the file list on GitHub.
+2. Alternatively, click the links provided above to view the respective branch directly.
+
+---
+
+## Disclaimer
+These projects were conducted in controlled, legal environments and are intended for educational purposes only. Always follow ethical guidelines when performing security assessments.
+
+---
+
